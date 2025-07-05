@@ -67,15 +67,13 @@ So what we need to do here is make Alexa aware of your app, and make it accessib
 
     You want to specify your Intent Schema and Sample Utterances. Thankfully, this is made easy by alexa-app - there are URLs for the detail already. 
     
-    On the test page (clicking "Show Live" and then "Test the Alexa Wikia Skill using a web form"). There are links which gives data to copy into the config. Especially at the bottom where they print out the popular pages on your wikia and copy those into slots.
-    
+    On the test page (clicking "Show Live" and then "Test the Alexa Wikia Skill using a web form"). There are links which gives data to copy into the config. Especially at the bottom where they print out the popular pages on your wikia and copy those into slots. 
     
     * Start with the "Custom Slot Types"
       * Click 'Add Slot Type' 
       * In 'Enter Type' put 'LIST_OF_PAGES' , in 'Enter Values', copy and paste all of the values from the `LIST_OF_PAGES` link in your test page.
     * For Intent Schema copy and paste the output given at the Shecma link '[/wikia?schema](https://chewy.gomix.me/wikia?schema)'. 
     * Do the same for '[/wikia?utterances](https://chewy.gomix.me/wikia?utterances)', pasting that output into 'Sample Utterances.' 
-    
     
     ![Screen Shot 2016-08-23 at 21.31.07](https://hyperdev.wpengine.com/wp-content/uploads/2016/08/Screen-Shot-2016-08-23-at-21.31.07-1024x339.png)
 

@@ -151,7 +151,6 @@ app.intent('wikia_subject',
 app.intent('wikia_list', {
   'slots': {
     'WIKIALIST': 'LIST_OF_LISTS'
-    //'WIKIALIST': 'LIST_OF_PAGES'
   },
   'utterances': ['{list|find|search} {|all} {|of} {|the} {-|WIKIALIST}']
 },
@@ -193,10 +192,6 @@ app.intent('wikia_list', {
     });
     return false;
   }
-  
 );
 
-
-//hack to support custom utterances in utterance expansion string
-//console.log(app.utterances().replace(/\{\-\|/g, '{'));
 module.exports = app;

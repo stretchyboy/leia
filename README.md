@@ -1,4 +1,4 @@
-# Leia - Chewy-dev
+# Chewy
 ## (Alexa Wookieepedia Info Skill)
 
 Give your Amazon Echo / Dot the power of the Force! ![Chewy Logo](https://edumake.org/wp-content/uploads/2016/12/108C2.png)
@@ -10,7 +10,6 @@ What's more it's super easy to remix this project to make Alexa answer the world
 This project demonstrates how to build an Alexa skill - no Amazon Echo required! It's a great project to learn the basics of creating Alexa Skills. 
 
 It uses Gabriel Pedro's [node-wikia](https://github.com/gpedro/node-wikia) , which fetches data from Wookieepedia and can be remixed to work with any of the 360,000+ [wikia](http://wikia.com/) fandom sites! So you can easily set up Alexa to answer questions on your favourite game in less than an hour.
-
 
 ![Wookieepedia Logo](http://img3.wikia.nocookie.net/__cb23/starwars/images/8/89/Wiki-wordmark.png)
 
